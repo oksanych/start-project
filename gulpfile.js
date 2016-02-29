@@ -42,9 +42,10 @@ var path = {
 
 var config = {
     server: {
-        baseDir: '.app'
+        baseDir: './app'
     },
-    tunnel: true,
+    startPath: "/html",
+    tunnel: 'oksanych',
     host: 'localhost',
     port: 9000,
     logPrefix: 'OkSanych'
